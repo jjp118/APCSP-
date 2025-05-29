@@ -42,7 +42,7 @@ function renderItems(){
         <h1 class="info">Email: ${email[i]}</h1>
         <h1 class="info">Phone: ${phone[i]}</h1>
         <h1 class="info">Address: ${addy[i]}</h1>
-        <button onclick="deleteContact(${i})"><h1 class="info">DELETE</h1></button>
+        <button onclick="deleteContact(${i})"><h1 class="">DELETE</h1></button>
         
         
         `;
